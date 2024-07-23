@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Countdown Timer</h1>
+        <div class="timer-setup">
+            <input type="number" id="minutes" placeholder="Minutes">
+            <input type="number" id="seconds" placeholder="Seconds">
+            <button id="set-timer">Set Timer</button>
+        </div>
+        <div class="countdown-display" id="countdown">
+            00:00
+        </div>
+        <div class="controls">
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="resume">Resume</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="management">
+            <button id="delete-timer">Delete Timer</button>
+            <button id="edit-timer">Edit Timer</button>
+        </div>
+        <div class="timer-list" id="timer-list">
+            <h2>Saved Timers:</h2>
+            <ul id="timer-items">
+                <!-- Timers will be listed here -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

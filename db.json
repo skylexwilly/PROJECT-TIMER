@@ -1,0 +1,21 @@
+[
+  {
+      "id": 1,
+      "name": "Morning Routine",
+      "minutes": 5,
+      "seconds": 30
+  },
+  {
+      "id": 2,
+      "name": "Workout",
+      "minutes": 10,
+      "seconds": 0
+  },
+ { 
+ "id": 3,
+ "name": "Lunch",
+ "minutes": 10,
+ "seconds": 0}
+
+ 
+]
